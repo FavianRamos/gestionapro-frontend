@@ -56,7 +56,7 @@ export default function SignUpForm() {
       localStorage.setItem("username", username);
 
       // Registered users default to USER role
-      navigate("/inicio");
+      navigate("/home");
 
     } catch (err) {
       setError(

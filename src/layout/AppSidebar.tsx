@@ -35,10 +35,10 @@ const adminNavItems: NavItem[] = [
     name: "Tables",
     icon: <TableIcon />,
     subItems: [
-      { name: "Productos", path: "/basic-tables", pro: false },
-      { name: "Categorías", path: "/categories", pro: false },
-      { name: "Ventas", path: "/sales", pro: false },
-      { name: "Usuarios", path: "/users", pro: false },
+      { name: "Products", path: "/basic-tables", pro: false },
+      { name: "Categories", path: "/categories", pro: false },
+      { name: "Sales", path: "/sales", pro: false },
+      { name: "Users", path: "/users", pro: false },
     ],
   },
 ];
@@ -46,18 +46,18 @@ const adminNavItems: NavItem[] = [
 const userNavItems: NavItem[] = [
   {
     icon: <GridIcon />,
-    name: "Inicio",
-    path: "/inicio",
+    name: "Home",
+    path: "/home",
   },
   {
     icon: <GridIcon />,
-    name: "Catálogo",
-    path: "/catalogo",
+    name: "Catalog",
+    path: "/catalog",
   },
   {
     icon: <TableIcon />,
-    name: "Mis Compras",
-    path: "/mis-compras",
+    name: "My Purchases",
+    path: "/my-purchases",
   },
 ];
 

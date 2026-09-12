@@ -66,7 +66,7 @@ export default function App() {
 
             {/* User Layout (USER only) */}
             <Route
-              path="/inicio"
+              path="/home"
               element={
                 <ProtectedRoute allowedRole="USER">
                   <Welcome />
@@ -74,7 +74,7 @@ export default function App() {
               }
             />
             <Route
-              path="/catalogo"
+              path="/catalog"
               element={
                 <ProtectedRoute allowedRole="USER">
                   <Catalog />
@@ -82,7 +82,7 @@ export default function App() {
               }
             />
             <Route
-              path="/mis-compras"
+              path="/my-purchases"
               element={
                 <ProtectedRoute allowedRole="USER">
                   <MySales />

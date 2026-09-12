@@ -9,10 +9,13 @@ function decodeRoleFromToken(token: string): string {
   }
 }
 
+
+
 interface ProtectedRouteProps {
   children: React.ReactNode;
   allowedRole: "ADMIN" | "USER";
 }
+
 
 export default function ProtectedRoute({
   children,
@@ -27,7 +30,7 @@ export default function ProtectedRoute({
   const role = decodeRoleFromToken(token);
 
   if (role !== allowedRole) {
-    return <Navigate to={role === "ADMIN" ? "/" : "/inicio"} replace />;
+    return <Navigate to={role === "ADMIN" ? "/" : "/home"} replace />;
   }
 
   return <>{children}</>;

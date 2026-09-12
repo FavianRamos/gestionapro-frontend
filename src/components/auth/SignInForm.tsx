@@ -57,7 +57,7 @@ export default function SignInForm() {
       if (payload.role === "ADMIN") {
         navigate("/");
       } else {
-        navigate("/inicio");
+        navigate("/home");
       }
     } catch (err) {
       setError(
