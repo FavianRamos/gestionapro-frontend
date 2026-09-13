@@ -73,19 +73,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## Estructura del proyecto
-
-src
-├── components
-│ ├── auth # Formularios de login/registro, rutas protegidas
-│ ├── dashboard # Métricas, gráficos, alertas
-│ ├── header # Menú de usuario, navegación
-│ └── tables/BasicTables # Tablas y modales de productos, categorías, usuarios y ventas
-├── config # URL de la API centralizada (VITE_API_URL)
-├── layout # Estructura general de la app, menú lateral
-└── pages
-├── Admin # Productos, Categorías, Ventas, Usuarios
-├── AuthPages # Login / Registro
-├── Dashboard # Inicio del administrador
-└── User # Catálogo, historial de compras, página de bienvenida
